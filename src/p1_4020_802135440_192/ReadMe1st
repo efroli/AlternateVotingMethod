@@ -1,0 +1,15 @@
+
+*** Ballots ***
+-Votes in ballots are given in order or ranking (1st place through nth place, n being the 
+	number of candidates).
+-Using an ArrayList the index of the List is the rank. The candidate ID is stored in the 
+	corresponding index of its ranking. 
+
+*** Candidates *** 
+
+
+*** Validating Ballots *** 
+
+
+*** Counting Ballots *** 
+
