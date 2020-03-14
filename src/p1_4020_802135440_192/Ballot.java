@@ -78,7 +78,6 @@ public class Ballot
 
 	}//end constructor
 
-//JAVADOC FORMAT 
 	//Methods
 	public int getBallotNumber()
 	{	return ballotNumber;	}

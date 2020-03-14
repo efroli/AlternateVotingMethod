@@ -184,7 +184,12 @@ public class Election
 		int[] oneCounter = new int[candidatesList.size()]; 
 		boolean looserEliminated = false; 
 		boolean isThereAWinner = false;
-				
+		
+		updateResultFile("result.txt", "Number of Ballots Recieved "+numOfBallots);
+		updateResultFile("result.txt", "Number of Blank Ballots "+numOfBlankBallots);
+		updateResultFile("result.txt", "Number of Invalid Ballots  "+numOfInvalidBallots);
+
+		
 		//Election Cycle 
 		while(!isThereAWinner)
 		{
